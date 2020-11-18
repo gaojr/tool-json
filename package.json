@@ -1,0 +1,31 @@
+{
+  "name": "tool-json",
+  "version": "0.0.1",
+  "description": "A tool for json",
+  "keywords": ["json"],
+  "homepage": "https://github.com/gaojr/tool-json#readme",
+  "bugs": {
+    "url": "https://github.com/gaojr/tool-json/issues"
+  },
+  "license": "MIT",
+  "author": "gaojr <gaojr427@hotmail.com> (https://github.com/gaojr)",
+  "main": "./src/index.js",
+  "repository": "github:gaojr/tool-json",
+  "scripts": {
+    "fix": "eslint --ext .js --fix src",
+    "format": "prettier --write \"{*.{json,md},**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "engines": {
+    "node": "^12.18.4"
+  }
+}
