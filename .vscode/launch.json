@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [],
+      "console": "integratedTerminal",
+      "program": "${workspaceFolder}/bin/index.js"
+    }
+  ]
+}

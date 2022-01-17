@@ -29,6 +29,9 @@ let sort_arr = function (a, b) {
 
 export function doSort(data) {
   console.debug(data);
+  // 是不是json
+  // 不是的话返回
+  // 判断是obj还是arr
   let json = JSON.parse(data);
   let sorted_str = stringify(json, sort_obj);
   let sorted_json = JSON.parse(sorted_str);

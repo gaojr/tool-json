@@ -1,0 +1,53 @@
+name: false
+version: false
+description: false
+keywords: false
+homepage: false
+bugs: false
+  url: false
+  email: false
+license: false
+author: false
+  name: false
+  email: false
+  url: false
+contributors: false
+  name: false
+  email: false
+  url: false
+funding: false
+  type: false
+  url: false
+files: false
+main: false
+browser: false
+bin: false
+man: false
+  name: false
+  version: false
+  description: false
+  main: false
+  man: false
+directories: false
+  directories.lib: false
+  directories.bin: false
+  directories.man: false
+  directories.doc: false
+  directories.example: false
+  directories.test: false
+repository: false
+  type: false
+  url: false
+  directory: false
+scripts: false
+config: false
+dependencies: false
+devDependencies: false
+peerDependencies: false
+bundledDependencies: false
+optionalDependencies: false
+engines: false
+os: false
+cpu: false
+private: false
+publishConfig: false
